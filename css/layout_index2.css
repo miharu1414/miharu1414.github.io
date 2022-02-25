@@ -1,0 +1,11 @@
+.h1-blue {
+  padding: 0.5em 1em;/*文字の上下 左右の余白*/
+  margin: 2em 12%;
+  font-weight: bold;
+  font-size:20px;
+  display:flex;
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;/*左線*/
+  border-bottom: solid 3px #d7d7d7;/*下線*/
+}
