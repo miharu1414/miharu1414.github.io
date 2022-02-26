@@ -50,7 +50,7 @@ body {
 
 .result_contents {
   width: 100%;
-  border: 15px solid #00ffc8;
+  border: 15px solid #ff00c8;
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
   padding: 100px 20px;
