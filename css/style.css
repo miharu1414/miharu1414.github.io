@@ -50,9 +50,218 @@ body {
 
 .result_contents {
   width: 100%;
+  border: 15px solid #ff00c8;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+  padding: 100px 20px;
+  font-size: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
+.menubox {
+  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 80px 0;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: all .4s ease .5s;
+  transition: all .4s ease .5s;
+}
+
+.menubox.__hide {
+  display: none;
+}
+
+.menubox.__active {
+  opacity: 1;
+}
+
+.menuttl {
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  vertical-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menuttl .txt {
+  display: inline-block;
+  vertical-align: center;
+  font-size: 2.5rem;
+  margin-left: 2rem;
+}
+
+.menuItem {
+  min-width: 100%;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menuItem label {
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menuItem label input {
+  display: none;
+}
+
+.menuItem label input + .btn {
+  border: 1px solid #CCC;
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  -webkit-transition: .8;
+  transition: .8;
+}
+
+.menuItem input:checked + .btn {
+  background: #ff6500;
+  border: 1px solid #ff6500;
+}
+
+.menuItem input:checked + .btn + .btn-txt {
+  color: #FFF;
+}
+
+.menuItem .btn-txt {
+  z-index: 10;
+  position: relative;
+}
+
+.menuItem .menuRadio {
+  margin-top: 40px;
+  min-width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.slide-enter-active {
+  -webkit-transition: all 1.6s ease 0.4s;
+  transition: all 1.6s ease 0.4s;
+}
+
+.slide-leave-active {
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.slide-leave-active {
+  position: absolute;
+}
+
+.slide-enter,
+.slide-leave-to {
+  opacity: 0;
+}
+
+.slide-enter {
+  -webkit-transform: translateX(120px);
+          transform: translateX(120px);
+}
+
+.slide-enter-to,
+.slide-leave {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.slide-leave-to {
+  -webkit-transform: translateX(-120px);
+          transform: translateX(-120px);
+  opacity: 0;
+}
+
+body {
+  font-family: 'Hannari';
+}
+
+.box2 {
+  padding: 0.5em 1em;
+  margin: 2em 12%;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #FFF;
+  border: solid 3px #6091d3;
+  /*線*/
+  border-radius: 10px;
+  /*角の丸み*/
+}
+
+.box2 p {
+  margin: 0;
+  padding: 0;
+}
+
+.Diagnosis {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.result {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  display: none;
+}
+
+.result.__active {
+  display: block;
+}
+
+.result_inner {
+  padding: 50px 0;
+  font-size: 20px;
+}
+
+.result_contents {
+  width: 100%;
   border: 15px solid #6f00ff;
- -webkit-transition: all 1.5s;
+  -webkit-transition: all 1.5s;
   transition: all 1.5s;
   padding: 100px 20px;
   font-size: 50px;
