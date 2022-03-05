@@ -15,6 +15,7 @@ var app = new Vue({
     toilet:'',
     amount:'',
     demand:'',
+    suply:'',
     result_active:'',
     nemu_active:'',
     result_txt:'',
@@ -48,7 +49,7 @@ var app = new Vue({
   },
   watch: {
       result_num:function(n,o){
-        this.result_txt = queData[0][this.sex]+' >> ' + queData[1][this.toilet] +' >> ' +queData[2][this.amount] +' >> ' +queData[3][this.demand] + ' を選択した時のコンテンツ'
+        this.result_txt = queData[0][this.sex]+' >> ' + queData[1][this.toilet] +' >> ' +queData[2][this.amount] +' >> ' +queData[3][this.demand] + ' >> ' +queData[4][this.suply] +' を選択した時のコンテンツ'
       }
   },
   created:function(){
@@ -63,6 +64,7 @@ var app = new Vue({
       this.answer[1] = this.toilet;
       this.answer[2] = this.amount;
       this.answer[3] = this.demand;
+      this.answer[4] = this.suply;
       this.current_num = this.answer.indexOf('');
       
       if(this.answer.indexOf('')==-1){

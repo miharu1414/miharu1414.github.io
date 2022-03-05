@@ -24,20 +24,25 @@
             <div class="menubox" v-bind:class="nemu_active">
             <transition name="slide">
             <div class="menuItem" key="1" v-if="current_num==0"><div class="menuttl">
-            質問1　<span class="txt">距離は近い方がいい？</span>
+            質問1　<span class="txt">スキーorスノーボード？</span>
             </div>
-            <div class="menuRadio"><label><input name="sex" type="radio" value="0" v-on:change="check" v-model="sex"><span class="btn"></span><span class="btn-txt">近い方がいい</span></label><label><input name="sex" type="radio" value="1" v-on:change="check" v-model="sex"><span class="btn"></span><span class="btn-txt">気にしない</span></label></div>
+            <div class="menuRadio"><label><input name="sex" type="radio" value="0" v-on:change="check" v-model="sex"><span class="btn"></span><span class="btn-txt">スキー</span></label><label><input name="sex" type="radio" value="1" v-on:change="check" v-model="sex"><span class="btn"></span><span class="btn-txt">スノーボード</span></label></div>
             </div>
             <div class="menuItem" key="2" v-if="current_num==1"><div class="menuttl">
-            質問2 <span class="txt">ゲレンデの滑走距離の長さは？</span>
-            </div><div class="menuRadio"><label><input name="toilet" type="radio" value="0" v-on:change="check" v-model="toilet"><span class="btn"></span><span class="btn-txt">2000m未満</span></label><label><input name="toilet" type="radio" value="1" v-on:change="check" v-model="toilet"><span class="btn"></span><span class="btn-txt">2000m以上</span></label><label><input name="toilet" type="radio" value="2" v-on:change="check" v-model="toilet"><span class="btn"></span><span class="btn-txt">気にしない</span></label></div></div>
+            質問2 <span class="txt">あなたの腕前は？？</span>
+            </div><div class="menuRadio"><label><input name="toilet" type="radio" value="0" v-on:change="check" v-model="toilet"><span class="btn"></span><span class="btn-txt">初級者(初めて)</span></label><label><input name="toilet" type="radio" value="1" v-on:change="check" v-model="toilet"><span class="btn"></span><span class="btn-txt">中級者</span></label><label><input name="toilet" type="radio" value="2" v-on:change="check" v-model="toilet"><span class="btn"></span><span class="btn-txt">上級者</span></label></div></div>
             <div class="menuItem" key="3" v-if="current_num==2"><div class="menuttl">
-            質問3<span class="txt">雪質はどうする？</span>
+            質問3<span class="txt">コースの雪質はどうする？</span>
             </div>
-            <div class="menuRadio"><label><input name="amount" type="radio" value="0" v-on:change="check" v-model="amount"><span class="btn"></span><span class="btn-txt">圧雪</span></label><label><input name="amount" type="radio" value="1" v-on:change="check" v-model="amount"><span class="btn"></span><span class="btn-txt">パウダー有り</span></label></div></div>
+            <div class="menuRadio"><label><input name="amount" type="radio" value="0" v-on:change="check" v-model="amount"><span class="btn"></span><span class="btn-txt">非圧雪多め</span></label><label><input name="amount" type="radio" value="1" v-on:change="check" v-model="amount"><span class="btn"></span><span class="btn-txt">気にしない</span></label></div></div>
             <div class="menuItem" key="4" v-if="current_num==3"><div class="menuttl">
-            質問4<span class="txt">スキー専用？</span>
-            </div><div class="menuRadio"><label><input name="demand" type="radio" value="0" v-on:change="check" v-model="demand"><span class="btn"></span><span class="btn-txt">スキーヤーのみ</span></label><label><input name="demand" type="radio" value="1" v-on:change="check" v-model="demand"><span class="btn"></span><span class="btn-txt">スノボも可能</span></label></div>
+            質問4<span class="txt">最大滑走距離は？</span>
+            </div><div class="menuRadio"><label><input name="demand" type="radio" value="0" v-on:change="check" v-model="demand"><span class="btn"></span><span class="btn-txt">3000m未満</span></label><label><input name="demand" type="radio" value="1" v-on:change="check" v-model="demand"><span class="btn"></span><span class="btn-txt">3000m以上</span></label></div>
+            </div>
+            <div class="menuItem" key="5" v-if="current_num==4"><div class="menuttl">
+            質問5<span class="txt">トップ標高はどうする？</span>
+            </div>
+            <div class="menuRadio"><label><input name="sex" type="radio" value="0" v-on:change="check" v-model="sex"><span class="btn"></span><span class="btn-txt">1500m未満</span></label><label><input name="sex" type="radio" value="1" v-on:change="check" v-model="sex"><span class="btn"></span><span class="btn-txt">1500m以上</span></label></div>
             </div>
             
             </transition>
