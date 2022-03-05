@@ -24,7 +24,7 @@
             <div class="menubox" v-bind:class="nemu_active">
             <transition name="slide">
             <div class="menuItem" key="1" v-if="current_num==0"><div class="menuttl">
-            質問1　<span class="txt">スキーorスノーボード？</span>
+            質問1<span class="txt">スキーorスノーボード？</span>
             </div>
             <div class="menuRadio"><label><input name="sex" type="radio" value="0" v-on:change="check" v-model="sex"><span class="btn"></span><span class="btn-txt">スキー</span></label><label><input name="sex" type="radio" value="1" v-on:change="check" v-model="sex"><span class="btn"></span><span class="btn-txt">スノーボード</span></label></div>
             </div>
@@ -42,7 +42,7 @@
             <div class="menuItem" key="5" v-if="current_num==4"><div class="menuttl">
             質問5<span class="txt">トップ標高はどうする？</span>
             </div>
-            <div class="menuRadio"><label><input name="sex" type="radio" value="0" v-on:change="check" v-model="sex"><span class="btn"></span><span class="btn-txt">1500m未満</span></label><label><input name="sex" type="radio" value="1" v-on:change="check" v-model="sex"><span class="btn"></span><span class="btn-txt">1500m以上</span></label></div>
+            <div class="menuRadio"><label><input name="suply" type="radio" value="0" v-on:change="check" v-model="suply"><span class="btn"></span><span class="btn-txt">1500m未満</span></label><label><input name="suply" type="radio" value="1" v-on:change="check" v-model="suply"><span class="btn"></span><span class="btn-txt">1500m以上</span></label></div>
             </div>
             
             </transition>
