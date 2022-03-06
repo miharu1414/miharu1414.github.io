@@ -1,6 +1,8 @@
 @charset "UTF-8";
 body {
   font-family: 'Hannari';
+  background-image: url("alex-mecl-4GcBRDyNc4s-unsplash.png");
+  background-size: cover;
 }
 
 .box2 {
@@ -15,6 +17,7 @@ body {
   /*線*/
   border-radius: 10px;
   /*角の丸み*/
+  opacity: 0.9;
 }
 
 .box2 p {
