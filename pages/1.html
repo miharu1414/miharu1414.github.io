@@ -52,82 +52,358 @@
             <div class="result" v-bind:class="result_active">
             <div class="result_inner">
                 <transition-group name="fade">
-                <div class="result_contents" key="1" v-if="result_num==1">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="2" v-if="result_num==2">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="3" v-if="result_num==3">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="4" v-if="result_num==4">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="5" v-if="result_num==5">
-                診断結果　準備中です
-            </div>
+                
+                    <div class="result_contents" key="0" v-if="result_num==0">
+                        <a href="https://www.tsugaike.gr.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="1" v-if="result_num==1">
+                        <a href="https://www.happo-one.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="2" v-if="result_num==2">
+                        <a href="https://iwatake-mountain-resort.com/winter">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="3" v-if="result_num==3">
+                        <a href="https://www.hakubaescal.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="4" v-if="result_num==4">
+                        <a href="https://www.hakunori.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="5" v-if="result_num==5">
+                        <a href="https://www.kashimayari.net/snow/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="6" v-if="result_num==6">
+                        <a href="https://www.hgp.co.jp/cortina/ski/sp/index.html">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="7" v-if="result_num==7">
+                        <a href="https://nozawaski.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="8" v-if="result_num==8">
+                        <a href="https://www.madarao.jp/ski">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="9" v-if="result_num==9">
+                        <a href="https://togari.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="10" v-if="result_num==10">
+                        <a href="https://shigakogen-ski.or.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="11" v-if="result_num==11">
+                        <a href="https://ryuoo.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="12" v-if="result_num==12">
+                        <a href="http://x-jam.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="13" v-if="result_num==13">
+                        <a href="http://x-jam.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="14" v-if="result_num==14">
+                        <a href="https://www.komaruyama.jp/komaruyama/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="15" v-if="result_num==15">
+                        <a href="https://akr-ski.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="16" v-if="result_num==16">
+                        <a href="https://www.ski-gelende.com/mycar/myoko/akakuraonsen/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="17" v-if="result_num==17">
+                        <a href="https://www.princehotels.co.jp/ski/myoko/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="18" v-if="result_num==18">
+                        <a href="https://www.princehotels.co.jp/ski/naeba/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="19" v-if="result_num==19">
+                        <a href="http://www.jkokusai.co.jp/ski">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="20" v-if="result_num==20">
+                        <a href="https://www.maiko-resort.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="21" v-if="result_num==21">
+                        <a href="https://ishiuchi.or.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="22" v-if="result_num==22">
+                        <a href="https://www.yuzawa-nakazato.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="23" v-if="result_num==23">
+                        <a href="https://www.kandatsu.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="24" v-if="result_num==24">
+                        <a href="https://www.iwa-ppara.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="25" v-if="result_num==25">
+                        <a href="https://gala.co.jp/winter/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="26" v-if="result_num==26">
+                        <a href="http://www.zao-ski.or.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="27" v-if="result_num==27">
+                        <a href="https://www.appi.co.jp/ski/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="28" v-if="result_num==28">
+                        <a href="https://www.alts.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="29" v-if="result_num==29">
+                        <a href="https://www.inawashiro-ski.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="30" v-if="result_num==30">
+                        <a href="https://www.princehotels.co.jp/ski/karuizawa/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="31" v-if="result_num==31">
+                        <a href="https://www.presidentresort.jp/snowpark/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="32" v-if="result_num==32">
+                        <a href="https://yunomaru.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="33" v-if="result_num==33">
+                        <a href="https://royalhill.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="34" v-if="result_num==34">
+                        <a href="https://winter.kurumayama-skypark.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="35" v-if="result_num==35">
+                        <a href="https://www.fujiten.net/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="36" v-if="result_num==36">
+                        <a href="http://misaka.kamuisp.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="37" v-if="result_num==37">
+                        <a href="https://surfsnow.jp/guide/htm/r0106s.htm">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="38" v-if="result_num==38">
+                        <a href="http://www.reex.co.jp/KOUMI/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="39" v-if="result_num==39">
+                        <a href="https://yachiho-kogen.com/ski/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="40" v-if="result_num==40">
+                        <a href="http://hatoriko.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="41" v-if="result_num==41">
+                        <a href="https://www.hunter.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="42" v-if="result_num==42">
+                        <a href="https://www.tambara.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="43" v-if="result_num==43">
+                        <a href="https://www.kawaba.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="44" v-if="result_num==44">
+                        <a href="https://www.oze-iwakura.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="45" v-if="result_num==45">
+                        <a href="https://www.norn.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="46" v-if="result_num==46">
+                        <a href="https://www.marunuma.jp/winter/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="47" v-if="result_num==47">
+                        <a href="https://www.mtjeans.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="48" v-if="result_num==48">
+                        <a href="https://edelsnow.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="49" v-if="result_num==49">
+                        <a href="https://www.ozetokura.co.jp/snowpark/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="50" v-if="result_num==50">
+                        <a href="https://katashinakogen.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="51" v-if="result_num==51">
+                        <a href="https://ski.washigatake.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="52" v-if="result_num==52">
+                        <a href="https://www.dynaland.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="53" v-if="result_num==53">
+                        <a href="https://www.takasu.gr.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="54" v-if="result_num==54">
+                        <a href="https://www.meihoski.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="55" v-if="result_num==55">
+                        <a href="https://www.whitepia.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="56" v-if="result_num==56">
+                        <a href="https://winghills.net/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="57" v-if="result_num==57">
+                        <a href="https://www.hiruganokogen.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="58" v-if="result_num==58">
+                        <a href="https://www.ciao.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="59" v-if="result_num==59">
+                        <a href="https://ontakeskijo.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="60" v-if="result_num==60">
+                        <a href="https://www.skijam.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="61" v-if="result_num==61">
+                        <a href="https://fukuiizumi.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="62" v-if="result_num==62">
+                        <a href="http://imajyo365.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="63" v-if="result_num==63">
+                        <a href="https://www.kunizakai.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="64" v-if="result_num==64">
+                        <a href="https://www.ojiro.or.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="65" v-if="result_num==65">
+                        <a href="https://www.hyounosen.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="66" v-if="result_num==66">
+                        <a href="https://www.hachi-hachikita.co.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="67" v-if="result_num==67">
+                        <a href="https://skyvalley.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="68" v-if="result_num==68">
+                        <a href="https://www.manba-ski.jp/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
+                        <div class="result_contents" key="69" v-if="result_num==69">
+                        <a href="https://www.hakodateyama.com/">
+                        スキー場のwebサイトはこちらです
+                        </a>
+                        </div>
             
-                <div class="result_contents" key="6" v-if="result_num==6">
-                    <a href="https://www.ski-gelende.co/gelende/hakuba/cortina/"><p class = "sample-p"><img class = "img" src="../css/6.jpg"></p></a>
-                    診断結果　準備中です
-                </div>
-            
-
-            <div class="result_contents" key="7" v-if="result_num==7">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="8" v-if="result_num==8">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="9" v-if="result_num==9">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="10" v-if="result_num==10">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="11" v-if="result_num==11">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="12" v-if="result_num==12">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="13" v-if="result_num==13">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="14" v-if="result_num==14">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="15" v-if="result_num==15">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="16" v-if="result_num==16">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="17" v-if="result_num==17">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="18" v-if="result_num==18">
-            診断結果　準備中です
-            </div>
-            <div class="result_contents" key="19" v-if="result_num==19">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="20" v-if="result_num==20">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="21" v-if="result_num==21">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="22" v-if="result_num==22">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="23" v-if="result_num==23">
-                診断結果　準備中です
-            </div>
-            <div class="result_contents" key="24" v-if="result_num==24">
-                診断結果　準備中です
-            </div>
                 </transition-group>
             </div>
             </div>
@@ -136,7 +412,7 @@
             </div>
             </div>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-        <script src="../js/vue.js"></script>
+        <script src="js/vue.js"></script>
     </div>
 
 </body>
