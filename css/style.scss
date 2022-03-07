@@ -1,21 +1,67 @@
 
 body{
   font-family:'Hannari';
+  background-image: url("alex-mecl-4GcBRDyNc4s-unsplash.png");
+  background-size: cover;
 }
 
-.box2 {
-  padding: 0.5em 1em;
-  margin: 2em 12%;
-  font-weight: bold;
-  display:flex;
-  background: #FFF;
-  border: solid 3px #6091d3;/*線*/
-  border-radius: 10px;/*角の丸み*/
+
+@media screen and(max-width: 950px) {
+  .box2 {
+    padding: 0.5em 1em;
+    margin: 2em 12%;
+    font-weight: bold;
+    display:flex;
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    opacity: 0.9;
+  }
+  .box2 p {
+    margin: 0; 
+    padding: 0;
+  }
+
+  .img-p {
+    text-align: center;
+  }
+  .img {
+    width : 95% ; /* 画面幅の50％ */
+    height: auto;
+    border-radius: 30px;
+    border:solid 5px #3dffcb
+  }
 }
-.box2 p {
-  margin: 0; 
-  padding: 0;
+@media screen and(min-width: 960px) {
+  .box2 {
+    padding: 0.5em 1em;
+    margin: 2em 20%;
+    font-weight: bold;
+    display:flex;
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    opacity: 0.9;
+  }
+  .box2 p {
+    margin: 0; 
+    padding: 0;
+  }
+
+  .img-p {
+    text-align: center;
+  }
+  .img {
+    width : 85% ; /* 画面幅の50％ */
+    height: auto;
+    border-radius: 30px;
+    border:solid 5px #2cffc0
+  }
+  
 }
+
+
+
 
 
 .Diagnosis{
@@ -24,7 +70,7 @@ body{
   overflow:hidden;
 }
 .result{
-  width:90%;
+  width:97%;
   margin:0 auto;
   display:flex;
   text-align:center;
@@ -39,9 +85,9 @@ body{
   }
   &_contents{
     width:100%;
-    border:15px solid #ff00c8;
+    //border:15px solid #83ffa8;
     transition: all 1.5s;
-    padding:100px 20px;
+    padding:0px 0px;
     font-size:50px;
     box-sizing:border-box;
   }
