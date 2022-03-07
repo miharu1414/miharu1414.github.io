@@ -5,24 +5,66 @@ body {
   background-size: cover;
 }
 
-.box2 {
-  padding: 0.5em 1em;
-  margin: 2em 12%;
-  font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #FFF;
-  border: solid 3px #6091d3;
-  /*線*/
-  border-radius: 10px;
-  /*角の丸み*/
-  opacity: 0.9;
+@media screen and (max-width: 950px) {
+  .box2 {
+    padding: 0.5em 1em;
+    margin: 2em 12%;
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #FFF;
+    border: solid 3px #6091d3;
+    /*線*/
+    border-radius: 10px;
+    /*角の丸み*/
+    opacity: 0.9;
+  }
+  .box2 p {
+    margin: 0;
+    padding: 0;
+  }
+  .img-p {
+    text-align: center;
+  }
+  .img {
+    width: 95%;
+    /* 画面幅の50％ */
+    height: auto;
+    border-radius: 30px;
+    border: solid 5px #3dffcb;
+  }
 }
 
-.box2 p {
-  margin: 0;
-  padding: 0;
+@media screen and (min-width: 960px) {
+  .box2 {
+    padding: 0.5em 1em;
+    margin: 2em 20%;
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #FFF;
+    border: solid 3px #6091d3;
+    /*線*/
+    border-radius: 10px;
+    /*角の丸み*/
+    opacity: 0.9;
+  }
+  .box2 p {
+    margin: 0;
+    padding: 0;
+  }
+  .img-p {
+    text-align: center;
+  }
+  .img {
+    width: 85%;
+    /* 画面幅の50％ */
+    height: auto;
+    border-radius: 30px;
+    border: solid 5px #2cffc0;
+  }
 }
 
 .Diagnosis {
@@ -32,7 +74,7 @@ body {
 }
 
 .result {
-  width: 90%;
+  width: 97%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,10 +95,9 @@ body {
 
 .result_contents {
   width: 100%;
-  border: 15px solid #ff00c8;
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
-  padding: 100px 20px;
+  padding: 0px 0px;
   font-size: 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
