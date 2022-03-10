@@ -19,7 +19,7 @@ div.business-card1 {
 height: $height;
   width: $width;
   margin-left: $width/-2;
-  margin-top: $height/-2;
+  margin-top: 0;
   
   position: absolute;
   top: 30%;
@@ -37,7 +37,7 @@ div.business-card2 {
     height: $height;
       width: $width;
       margin-left: $width/-2;
-      margin-top: $height/-2;
+      margin-top: 0;
      
       position: absolute;
       top: 30%;
