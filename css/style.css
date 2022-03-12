@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 990px) {
   body {
     font-family: 'Hannari';
     background-image: url("../image_main/photo-1580238053495-b9720401fd45.png");
@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 991px) {
   body {
     font-family: 'Hannari';
     background-image: url("../image_main/alex-mecl-4GcBRDyNc4s-unsplash.png");
