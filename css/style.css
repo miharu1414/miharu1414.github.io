@@ -74,6 +74,12 @@ body {
   overflow: hidden;
 }
 
+.image-vw {
+  width: 65vw;
+  height: 35vw;
+  margin: auto;
+}
+
 .result {
   width: 97%;
   margin: 0 auto;
