@@ -9,7 +9,7 @@ body{
 @media screen and(max-width: 959px) {
   .box2 {
     padding: 0.5em 1em;
-    margin: 2em 12%;
+    margin: 2em 2%;
     font-weight: bold;
     display:flex;
     background: #FFF;
@@ -26,9 +26,9 @@ body{
     text-align: center;
   }
   .img {
-    width : 95% ; /* 画面幅の50％ */
-    height: auto;
-    max-height: 20%;
+    width : auto ; /* 画面幅の50％ */
+    height: 20%;
+   
     border-radius: 30px;
     border:solid 5px #3dffcb
   }
