@@ -7,7 +7,7 @@
   }
   .box2 {
     padding: 0.5em 1em;
-    margin: 2em 2%;
+    margin: 2em 10%;
     font-weight: bold;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -76,12 +76,6 @@
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
-}
-
-.image-vw {
-  width: 65vw;
-  height: 35vw;
-  margin: auto;
 }
 
 .result {
