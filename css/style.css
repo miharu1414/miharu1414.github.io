@@ -78,10 +78,11 @@
   overflow: hidden;
 }
 
+
 .image-vw {
   width: 70%;
   height: 35%;
-  margin: auto;
+  margin: auto; 
 }
 
 .result {
