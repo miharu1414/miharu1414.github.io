@@ -31,7 +31,7 @@ body {
     width: 95%;
     /* 画面幅の50％ */
     height: auto;
-    max-height: 45%;
+    max-height: 20%;
     border-radius: 30px;
     border: solid 5px #3dffcb;
   }
@@ -63,7 +63,7 @@ body {
     width: 85%;
     /* 画面幅の50％ */
     height: auto;
-    max-height: 45%;
+    max-height: 20%;
     border-radius: 30px;
     border: solid 5px #2cffc0;
   }
