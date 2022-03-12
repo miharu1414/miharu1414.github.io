@@ -1,10 +1,4 @@
 @charset "UTF-8";
-body {
-  font-family: 'Hannari';
-  background-image: url("../image_main/alex-mecl-4GcBRDyNc4s-unsplash.png");
-  background-size: cover;
-}
-
 @media screen and (max-width: 959px) {
   body {
     font-family: 'Hannari';
@@ -42,6 +36,11 @@ body {
 }
 
 @media screen and (min-width: 960px) {
+  body {
+    font-family: 'Hannari';
+    background-image: url("../image_main/alex-mecl-4GcBRDyNc4s-unsplash.png");
+    background-size: cover;
+  }
   .box2 {
     padding: 0.5em 1em;
     margin: 2em 20%;
