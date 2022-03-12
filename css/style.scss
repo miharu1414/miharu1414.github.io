@@ -7,6 +7,12 @@ body{
 
 
 @media screen and(max-width: 959px) {
+  body{
+    font-family:'Hannari';
+    background-image: url("../image_main/photo-1580238053495-b9720401fd45.png");
+    background-size: cover;
+  }
+  
   .box2 {
     padding: 0.5em 1em;
     margin: 2em 2%;
